@@ -113,7 +113,7 @@ public class AuthAppLogInFrame {
         cancelButton = new JButton("Cancel");
         cancelButton.setBounds(35, 195, 160, 20);
         LogInFrame.add(cancelButton);
-        cancelButton.addActionListener(al -> AuthAppBackend.clearAllFileds(fieldphoneNumber, fieldsPassword));
+        cancelButton.addActionListener(al -> AuthAppBackend.clearAllFields(fieldphoneNumber, fieldsPassword));
     }
 
     /**
